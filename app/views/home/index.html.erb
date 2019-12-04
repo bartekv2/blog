@@ -1,0 +1,13 @@
+<% if @greet %>
+<h1>Witaj!</h1>
+<p class="lead">Bartek to prawdziwy Casanova.</p>
+<% else %>
+<h1>Buuuuuu!</h1>
+<% end %>
+<p><%= 3 + 6 %></p>
+<p><%= @name %></p>
+<ul>
+  <% @numbers.each do |number| %>
+  <li><%= number %></li>
+  <% end %>
+</ul>
